@@ -8,7 +8,7 @@ from decimal import Decimal
 from typing import Any, Callable, Dict, Iterator, List, Match, Optional, Sequence, Tuple, Union
 
 import numpy as np
-import pandas as pd
+import fireducks.pandas as pd
 import pyarrow as pa
 import pyarrow.parquet
 

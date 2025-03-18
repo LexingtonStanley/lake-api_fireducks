@@ -13,7 +13,7 @@ from typing import Any, Callable, Dict, Generator, List, Optional, Sequence, Tup
 import boto3
 import botocore.config
 import numpy as np
-import pandas as pd
+import fireducks.pandas as pd
 
 from lakeapi import __version__, exceptions, _config
 from lakeapi._config import apply_configs

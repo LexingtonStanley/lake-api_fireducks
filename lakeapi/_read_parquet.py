@@ -12,7 +12,7 @@ import warnings
 from typing import Any, Callable, Dict, Iterable, Iterator, List, Optional, Tuple, Union, cast, Sequence
 
 import boto3
-import pandas as pd
+import fireducks.pandas as pd
 import pyarrow as pa
 import pyarrow.parquet
 

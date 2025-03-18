@@ -15,7 +15,7 @@ import zlib
 import boto3
 import botocore
 import botocore.exceptions
-import pandas as pd
+import fireducks.pandas as pd
 import pandas.errors
 from cachetools_ext.fs import FSLRUCache
 from botocache.botocache import botocache_context

@@ -12,7 +12,7 @@ pytest-benchmark==4.0.0
 # jinja2==3.1.2
 numba; python_version < '3.12'
 numba==0.60.0; python_version >= '3.12'
-
+fireducks==1.2.5
 typing-extensions==4.4.0; python_version < '3.8'
 pandas==1.2.0; python_version < '3.8'
 pandas==2.0.3; python_version == '3.8'
@@ -24,7 +24,15 @@ botocache==0.0.4
 joblib==1.2.0
 tqdm==4.64.1
 # wheel==0.41.1
-pyarrow==12.0.0; python_version < '3.12'
-pyarrow==14.0.0; python_version >= '3.12'
+pyarrow==19.0.0; python_version < '3.12'
+pyarrow==19.0.1; python_version >= '3.12'
 aws-requests-auth==0.4.3
-setuptools
+setuptools~=76.0.0
+
+pandas~=2.1.4
+numpy~=1.26.4
+botocore~=1.27.96
+requests~=2.32.3
+cachetools~=4.2.1
+pyarrow~=19.0.1
+numba~=0.60.0
